@@ -1,6 +1,4 @@
-extends: eslint:recommended
-
-rules:
+:
   # Turning on extra rules
   quotes: [2, "single", "avoid-escape"]
   no-alert: [2]
@@ -17,7 +15,7 @@ rules:
   no-this-before-super: [2]
   constructor-super: [2]
   indent: [2, 2, {"SwitchCase": 1}]
-
+https://github.com/sguss2024/kitsune/blob/master/.editorconfig#L8
   # Turning off default rules. Should some of these be warnings?
   no-console: [0]
   no-unused-vars: [0]
